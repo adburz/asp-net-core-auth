@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreAuthentication.Basics", "AspNetCoreAuthentication.Basics\AspNetCoreAuthentication.Basics.csproj", "{F2E9EF3F-22DB-4562-A2FC-910D232EA87C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreAuthentication.OpenId", "AspNetCoreAuthentication.IdentityServer4\AspNetCoreAuthentication.OpenId.csproj", "{A810D9D4-0E0D-43DA-8238-ED99B8A7DE29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E9EF3F-22DB-4562-A2FC-910D232EA87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E9EF3F-22DB-4562-A2FC-910D232EA87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E9EF3F-22DB-4562-A2FC-910D232EA87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E9EF3F-22DB-4562-A2FC-910D232EA87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A810D9D4-0E0D-43DA-8238-ED99B8A7DE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A810D9D4-0E0D-43DA-8238-ED99B8A7DE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A810D9D4-0E0D-43DA-8238-ED99B8A7DE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A810D9D4-0E0D-43DA-8238-ED99B8A7DE29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3B19199-7AD3-4AFD-9ED6-4A95F437109B}
+	EndGlobalSection
+EndGlobal

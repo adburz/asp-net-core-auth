@@ -1,0 +1,25 @@
+﻿@page
+@model AspNetCoreAuthentication.IdentityServer4.Pages.SecureModel
+
+<div>
+    <h3>User claims</h3>
+
+    <dl>
+        @foreach(var claim in Model.Session.Claims)
+        {
+            <dt>@claim.Type</dt>
+            <dt>@claim.Value</dt>
+            <br />
+        }
+    </dl>
+
+    <dl>
+
+        <h3>User metadata</h3>
+        @foreach(var data in Model.Session.Metadata)
+        {
+            <dt>@data.Key</dt>
+            <dt>@data.Value</dt>
+        }
+    </dl>
+</di
